@@ -3,7 +3,9 @@
 Rocchio Algorithm for Query Optimization
 
 This project implements the Rocchio Relevance Feedback Algorithm using a simulated document collection represented with tf-idf features.
-The goal is to demonstrate how a query can be improved based on similarity measurements and feedback from relevant and non-relevant documents.📌 Project Overview
+The goal is to demonstrate how a query can be improved based on similarity measurements and feedback from relevant and non-relevant documents.
+
+📌 Project Overview
 
 The Rocchio algorithm is a classical method in information retrieval used to refine search queries.
 It represents both documents and queries as numeric vectors (using tf-idf) and then adjusts the query so it shifts:
@@ -23,6 +25,7 @@ In this project we:
   - R: average relevant documents
   - R′: strongest relevant documents
   - NR: non-relevant documents
+
 ✔ Compute the optimized query vector q(opt)
 ✔ Rank documents by similarity to q(opt)
 ✔ Generate detailed views (tables) for each stage
@@ -46,10 +49,7 @@ If a document has a high cosine similarity, it means its direction in the vector
 By adjusting the query vector using Rocchio, we increase the importance of useful terms and suppress irrelevant ones.
 
 📂 Project Structure
-├── rocchio.ipynb      # Full notebook with all steps and views
-├── main.py            # Optional script version
-├── data/              # (Optional) folder for real tf-idf inputs
-├── README.md          # Project documentation
+├── rocchio_algohrithm.ipynb      # Full notebook with all steps and views
 
 🔧 How to Run the Project
 1. Install Dependencies
